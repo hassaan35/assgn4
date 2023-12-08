@@ -1,10 +1,56 @@
-# Get user input for two numbers
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
-num3 = float(input("Enter the third number: "))
-# Add the two numbers
-sum_result = num1 + num2
-result = result + num3
-# Display the result
-print(result)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
 
+        header {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Sample Page</h1>
+    </header>
+
+    <section>
+        <h2>About Us</h2>
+        <p>This is a sample HTML page to demonstrate basic structure and styling.</p>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Phone: +1 (123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Sample Page. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
